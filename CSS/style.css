@@ -1,0 +1,115 @@
+* {
+    background-color: hsl(0, 0%, 95%);
+    margin: 0;
+    padding: 0;
+}
+
+#link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Lexend Deca' sans-serif;
+    font-size: 15px;
+    color: hsl(31, 77%, 52%);
+    float: right;
+}
+#link a {
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(31, 77%, 52%);
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 50px;
+}
+
+#link a:hover {
+    color: hsl(184, 100%, 22%);
+}
+#link a:active {
+    color: hsl(179, 100%, 13%);
+}
+
+
+.container {
+    display: flex;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 100px;
+    border: 1px solid hsl(0, 0%, 95%);
+    border-radius: 75px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    background-color: inherit;
+    margin-top: 20px;
+}
+
+h1 {
+    background: inherit;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display' sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+p {
+    background: inherit;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca' sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#sedans {
+    background: hsl(31, 77%, 52%);
+    width: 200px;
+    height: 400px;
+    padding: 30px;
+}
+
+#suvs {
+    background: hsl(184, 100%, 22%);
+    width: 200px;
+    height: 400px;
+    padding: 30px;
+}
+
+#luxury {
+    background: hsl(179, 100%, 13%);
+    width: 200px;
+    height: 400px;
+    padding: 30px;
+}
+
+button {
+    background: hsl(0, 0%, 95%);
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    display: block;
+    text-align: center;
+}
+
+button:hover {
+    border: 3px solid white;
+    background-color: transparent;
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+}
+
+.sedans {
+    color: hsl(31, 77%, 52%);
+}
+.suvs {
+    color: hsl(184, 100%, 22%);
+}
+.luxury {
+    color: hsl(179, 100%, 13%);
+}

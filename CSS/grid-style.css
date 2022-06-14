@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(2, 29, 29);
+}
+#link {
+    display: flex;
+    align-items: center;
+    font-family: 'Lexend Deca' sans-serif;
+    font-size: 15px;
+    color: hsl(31, 77%, 52%);
+    float: left;
+}
+#link a {
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(31, 77%, 52%);
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+#link a:hover {
+    color: hsl(184, 100%, 22%);
+}
+#link a:active {
+    color: hsl(179, 100%, 13%);
+}
+
+main {
+    display: grid;
+    gap: 0.5em;
+    grid-template-areas: 'a a a b b' 'a a a b b' 'c c d d d' 'c c e e e';
+    width: 70%;
+    height: 200px;
+    padding: 50px;
+    margin: 50px;
+}
+
+main div {
+    padding: 3em;
+}
+
+.grid-a {
+    grid-area: a;
+    background-color: rgb(231, 81, 22);
+}
+
+.grid-b {
+    grid-area: b;
+    background-color: rgb(226, 153, 17);
+}
+
+.grid-c {
+    grid-area: c;
+    background-color: rgb(71, 148, 71);
+}
+
+.grid-d {
+    grid-area: d;
+    background-color:rgb(73, 178, 219);
+}
+
+.grid-e {
+    grid-area: e;
+    background-color: rgb(73, 178, 219);
+}
